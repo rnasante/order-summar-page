@@ -1,0 +1,122 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+body {
+      background-image: url(images/pattern-background-desktop.svg);
+      background-repeat: no-repeat;
+      background-color:lightblue;
+      width: 1440px;
+      height: 40%;
+      padding-right: 50px;
+      
+      
+}
+
+.order-sum-card {
+                 background-repeat: no-repeat;
+                 width: 28.5rem;
+                 height: 39rem;
+                
+                 /* to center the card */
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+                 text-align: center;
+                 background-color: white;
+                 border-radius: 1.25rem;
+                 backdrop-filter: blur (.25rem);
+
+                 font-family: sans-serif;
+
+}
+
+.order-sum-card img {
+                     width: 28.5rem;
+                     border-top-left-radius: 1rem;
+                     border-top-right-radius: 1rem;
+                     margin-bottom: 1.25rem;
+                     
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: .125rem;
+}
+
+#sum-text {
+           padding: 1.250rem;
+           margin: auto;
+           color: grey;
+           font-size: 16px;
+           
+}
+
+.annual-plan {
+              display: grid;
+              grid-template-columns: 1fr 3fr 1fr;
+              background-color: #e8f6ef;
+              width: 75%;
+              
+              margin: auto;
+              margin-top: .6375;
+              border-radius: .5rem;
+              padding: .625rem;
+              
+
+}
+
+#plan-text {
+            text-align: left;
+            font-weight: bold;
+            margin-top: 1.825rem;
+            
+}
+
+#price {
+        text-align: left;
+        color: grey;
+        font-weight: bold;
+        
+}
+
+#change {
+         margin-top: 2.5875rem;
+         margin-right: .625rem;
+         font-weight: bold;
+}
+
+#music-icon {
+             width: 2.5rem;
+             margin-top: 1.8875rem;
+}
+
+.payment {
+          background-color: blue;
+          width: 75%;
+          margin: auto;
+          margin-top: 0.625rem;
+          border: none;
+          border-radius: .5rem;
+          padding: .625rem;
+          font-weight: bold;
+          color: white;
+          cursor: pointer;
+          
+}
+
+.cancel {
+         background-color: white;
+         text-decoration: none;
+         color: grey;
+         border: none;
+         font-weight: bold;
+         margin: auto;
+         margin-top: .625rem;
+         padding: .625rem;
+         width: 65%;
+         
+}
